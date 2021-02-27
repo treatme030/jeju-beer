@@ -1,0 +1,174 @@
+.wrap {
+    width: 100%;
+}
+
+/* Header */
+
+.header-wrap {
+    width: 100%;
+    min-height: 30px;
+}
+
+/* Gnb */
+.gnb-wrap {
+    width: 100%;
+}
+
+.gnb {
+    max-width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.gnb .left,
+.gnb .right {
+    width: 390px;
+}
+
+.gnb .center .jeju-logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.gnb .center .jeju-logo img {
+    width: 119.739837398px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.gnb .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gnb .right .account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gnb .right .account li {
+    margin: 0 10px;
+}
+
+.gnb .right .account li a {
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+}
+
+.gnb .right .club {
+    width: 32.511%;
+    margin-left: 25px;
+}
+
+.gnb .right .club a {
+    display: inline-block;
+    width: 100%;
+    padding: 4px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    background-color: rgb(30, 202, 211);
+}
+
+/* Nav */
+.nav-wrap {
+    width: 100%;
+}
+
+.nav-menu-container {
+    max-width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.nav-menu-container .menu-box {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-menu-container .menu-box .menu-list {
+    height: 40px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu-container .menu-box .menu-list a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 50px;
+    color: rgb(85, 88, 91);
+}
+
+/* Main */
+
+.main-wrap {
+    width: 100%;
+    /* position: relative; */
+}
+
+/* Visual-1 */
+.visual-1-wrap {
+    width: 100%;
+    /* position: relative; */
+}
+
+.visual-1-wrap .visual-1 {
+    background-image: url("../j-img/cae195eaad8be.jpg");
+    background-position: 50% 50%;
+}
+
+.visual-1-text-wrap {
+    width: 100%;
+}
+
+.visual-1-text-area {
+    max-width: 1200px;
+    height: 1001px;
+    margin: 0 auto;
+    padding: 220px 7px 0;
+}
+
+.visual-1-text-area img {
+    display: block;
+    width: 288px;
+    margin: 0 auto;
+}
+
+/* Visual-2 */
+.visual-2-wrap {
+    width: 100%;
+}
+
+.visual-2-wrap .visual-2 {
+    background-image: url("../j-img/1b16455966561.jpg");
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.visual-2-text-wrap {
+    width: 100%;
+}
+
+.visual-2-text-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 843px;
+    padding: 123px;
+}
+
+.visual-2-text-area img {
+    display: block;
+    width: 404px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 700;
+	src: url('../fonts/SpoqaHanSansBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 400;
+	src: url('../fonts/SpoqaHanSansRegular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham A';
+	font-weight: 400;
+	src: url('../fonts/Gotham-Book.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham A';
+	font-weight: 500;
+	src: url('../fonts/Gotham-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham A';
+	font-weight: 700;
+	src: url('../fonts/Gotham-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham A';
+	font-weight: 900;
+	src: url('../fonts/Gotham-Ultra.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Gotham A','Spoqa Han Sans';
+	font-size: 14px;
+    font-weight: 500;
+	line-height: 1.6;
+    letter-spacing: -0.5px;
+	color: rgb(61, 70, 75);
+}
+
+div {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
