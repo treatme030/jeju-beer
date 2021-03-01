@@ -42,3 +42,87 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* padding */
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-30 {
+	padding-top: 30px;
+}
+
+.pb-30 {
+	padding-bottom: 30px;
+}
+
+.pb-35 {
+	padding-bottom: 35px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+/* background-color */
+
+.bg-b {
+	background-color: rgb(0, 36, 51);
+}
+
+.bg-w {
+	background-color: rgb(255,255,255);
+}
+
+.bg-g {
+	background-color: rgb(239, 239, 239);
+}
+
+.bg-bg {
+	background-color: rgb(83, 88, 90);
+}
+
+.bg-blue {
+	background-color: rgb(30, 202, 211);
+}
+
+/* font-size */
+
+.title-56 {
+	font-size: 56px;
+}
+
+.title-30 {
+	font-size: 30px;
+}
+
+.title-26 {
+	font-size: 26px;
+}
+
+.text-20 {
+	font-size: 20px;
+}
+
+.text-18 {
+	font-size: 18px;
+}
+
+.text-16 {
+	font-size: 16px;
+}
+
+.fs-13 {
+	font-size: 13px;
+}
+
+/* color */
+
+.fc-w {
+	color: rgb(255,255,255);
+}
+
+.fc-b {
+	color: rgb(0, 36, 51);
+}
