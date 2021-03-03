@@ -150,7 +150,7 @@
 .visual-2-wrap .visual-2 {
     background-image: url("../j-img/1b16455966561.jpg");
     background-position: 50% 50%;
-    background-attachment: fixed;
+    background-attachment: fixed;/*배경 뷰포트에 고정, 스크롤시 움직이지 않음*/
 }
 
 .visual-2-text-wrap {
@@ -682,4 +682,151 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Apply */
+.apply-wrap {
+    width: 100%;
+}
+
+.apply {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0 150px;
+    text-align: center;
+}
+
+.apply .apply-title {
+    padding-bottom: 54px;
+    border-bottom: 4px solid rgb(255,255,255);
+}
+
+.apply .apply-title p {
+    line-height: 130%;
+}
+
+.apply-box {
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(255,255,255);
+}
+
+/* table 레이아웃 적용 */
+.apply-box table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: auto;
+}
+
+.apply-box .first-cell {
+    width: 21%;/*첫번째 셀값을 고정하면 다음 셀값은 자동으로 설정됨*/
+}
+
+.apply-box table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;/*직접 셀에 적용해야 위치 변경됨*/
+}
+
+.apply .add-info {
+    width: 100%;
+    padding: 30px 15px 0;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Q&A */
+.qa-wrap {
+    width: 100%;
+}
+
+.qa {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0 150px;
+}
+
+.qa .qa-title {
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 19px;
+    border-bottom: 4px solid rgb(30, 202, 211);
+}
+
+.qa-list-item {
+    width: 100%;
+    padding: 25px 15px;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgb(30, 202, 211);
+}
+
+.qa-list-item span {
+    display: inline-block;
+}
+
+.qa-list-item .item-title {
+    font-size: 20px;
+    line-height: 220%;
+}
+
+.qa-list-item .item-r {
+    padding-left: 10px;
+}
+
+.qa-list-item .answer span:first-child {
+    vertical-align: top;
+    line-height: inherit;
+}
+
+.qa-list-item .answer span:last-child {
+    padding: 3px 0 10px 10.33px;
+}
+
+/* Social */
+.social-wrap {
+    width: 100%;
+}
+
+.social {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 160px 0 216px;
+    text-align: center;
+}
+
+.social p {
+    line-height: 140%;
+    padding-bottom: 60px;
+}
+
+.social .social-btn-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .social-btn-list li~li {
+    margin-left: 40px;
+}
+
+.social .social-btn-list button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: rgb(61,70,75) 50% 50% no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social .social-btn-list .kakao {
+    background-image: url("../j-img/button-sns-talk.png");
+}
+
+.social .social-btn-list .facebook {
+    background-image: url("../j-img/button-sns-face.png");
+}
+
+.social .social-btn-list .url {
+    background-image: url("../j-img/button-sns-url.png");
 }

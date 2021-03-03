@@ -43,6 +43,11 @@ div {
 	background-size: cover;
 }
 
+table,
+td {
+	border-collapse: collapse;
+}
+
 /* padding */
 
 .pt-20 {
@@ -87,10 +92,22 @@ div {
 	background-color: rgb(30, 202, 211);
 }
 
+.bg-qa {
+	background-color: rgb(246, 246, 247);
+}
+
 /* font-size */
+
+.title-64 {
+	font-size: 64px;
+}
 
 .title-56 {
 	font-size: 56px;
+}
+
+.title-48 {
+	font-size: 48px;
 }
 
 .title-30 {
@@ -99,6 +116,10 @@ div {
 
 .title-26 {
 	font-size: 26px;
+}
+
+.text-22 {
+	font-size: 22px;
 }
 
 .text-20 {
@@ -125,4 +146,8 @@ div {
 
 .fc-b {
 	color: rgb(0, 36, 51);
+}
+
+.fc-blue {
+	color: rgb(30, 202, 211);
 }
