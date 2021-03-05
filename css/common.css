@@ -29,6 +29,18 @@
 	src: url('../fonts/Gotham-Ultra.woff2') format('woff2');
 }
 
+@font-face {
+	font-family: 'Black Tie';
+	font-weight: 200;
+	src: url('../fonts/BlackTie-Light-webfont.woff2') format('woff2');
+}
+/* 
+@font-face {
+	font-family: 'Black Tie';
+	font-weight: 200;
+	src: url('../fonts/BlackTie-Light-webfont.woff2') format('woff2');
+} */
+
 body {
     font-family: 'Gotham A','Spoqa Han Sans';
 	font-size: 14px;
@@ -38,7 +50,8 @@ body {
 	color: rgb(61, 70, 75);
 }
 
-div {
+div,
+li {
 	background-repeat: no-repeat;
 	background-size: cover;
 }

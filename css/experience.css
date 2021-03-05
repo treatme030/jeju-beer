@@ -667,7 +667,7 @@
 
 .present-img {
     width: 100%;
-    padding: 75px 160px 155px;
+    padding: 75px 130px 155px;
 }
 
 .present-img-list {
@@ -676,18 +676,10 @@
     justify-content: space-between;
 }
 
-.present-img-list li {
+.present-img-list .present-img-box {
     position: relative;
     width: 33.3333%;
     padding: 0 30px;
-}
-
-.present-img-list li:first-child {
-    padding-left: 0;
-}
-
-.present-img-list li:last-child {
-    padding-right: 0;
 }
 
 .present-img-list .circle-box {
@@ -696,6 +688,7 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    z-index: 100;
 }
 
 .present-img-list .circle-box img {
@@ -706,11 +699,56 @@
     font-size: 18px;
 }
 
+.present-slide-container {
+    position: relative;
+    width: 100%;
+    min-height: 651px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.present-slide-box {
+    position: absolute;
+    width: 4482px;
+    height: 100%;
+    display: flex;
+    /* transition: left .3s ease-in; */
+}
+
+.present-slide-box div {
+    padding-right: 10px;
+}
+
 .present-item {
+    width: 488px;
     min-height: 651px;
 }
 
+.present-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255,255,255);
+}
+
+.present-nav i:before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 65px;
+}
+
+.xi-angle-left-thin:before {
+    left: 5px;
+}
+
+.xi-angle-right-thin:before {
+    right: 5px;
+}
+
 .present-desc {
+    width: 488px;
     padding: 30px;
     text-align: center;
     background-color: rgb(246, 246, 247);
