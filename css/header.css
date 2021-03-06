@@ -1,3 +1,29 @@
+/* floating-btn */
+.floating-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 60px;
+    z-index: 1500;
+}
+
+.floating-btn a {
+    display: block;
+    padding-top: 100%;
+    background: 50% 50% no-repeat;
+    background-size: 99%;
+}
+
+.floating-btn .share {
+    background-image: url('../j-img/button-share.png');
+}
+
+.floating-btn .top {
+    background-image: url('../j-img/button-top.png');
+    margin-top: 10px;
+}
+
+
 /* Header */
 
 .header-wrap {
