@@ -13,7 +13,6 @@
 
 .floating-btn a {
     display: block;
-    
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -118,6 +117,11 @@
     color: rgb(136, 136, 136);
 }
 
+.gnb .right .account li a:hover {
+    color: rgba(136, 136, 136, 0.5);
+    transition: .3s;
+}
+
 .gnb .right .club {
     width: 32.511%;
     margin-left: 25px;
@@ -131,6 +135,11 @@
     font-weight: 700;
     color: rgb(255,255,255);
     background-color: rgb(30, 202, 211);
+}
+
+.gnb .right .club a:hover {
+    background-color: rgb(16,173,181);
+    transition: .3s;
 }
 
 /* Nav */
@@ -158,10 +167,24 @@
 
 .nav-menu-container .menu-box .menu-list a {
     display: inline-block;
-    line-height: 40px;
-    font-size: 14px;
     padding: 0 50px;
+    line-height: 40px;
     color: rgb(85, 88, 91);
+}
+
+.nav-menu-container .menu-box .menu-list a:hover,
+.nav-menu-container .menu-box .menu-list a span:hover {
+    color: rgba(85, 88, 91, 0.5); 
+    transition: .3s;
+}
+
+.nav-menu-container .menu-box .menu-list a span {
+    display: inline-block;
+    line-height: 1;
+    font-weight: 600;
+    padding: 12px 0;
+    color: rgb(30, 202, 211);
+    border-bottom: 1px solid rgb(30, 202, 211);
 }
 
 /* Main */
@@ -704,24 +727,25 @@
     width: 100%;
     min-height: 651px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .present-slide-box {
     position: absolute;
-    width: 4482px;
+    width: 100%;
     height: 100%;
-    display: flex;
-    /* transition: left .3s ease-in; */
 }
 
-.present-slide-box div {
-    padding-right: 10px;
+.present-slide-box .animated {
+    transition: left 1s ease-in;
 }
 
-.present-item {
+.present-slide-box .present-slide {
+    position: absolute;
+    top: 50%;
     width: 488px;
     min-height: 651px;
+    transform: translateY(-50%);
+    
 }
 
 .present-nav {
@@ -729,14 +753,16 @@
     top: 0;
     width: 100%;
     height: 100%;
-    color: rgb(255,255,255);
 }
 
-.present-nav i:before {
+.present-nav a:before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    display: inline-block;
     font-size: 65px;
+    color: rgb(255,255,255);
+    z-index: 5000;
 }
 
 .xi-angle-left-thin:before {
