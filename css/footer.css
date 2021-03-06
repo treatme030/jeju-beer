@@ -1,0 +1,74 @@
+/* Footer */
+.footer-wrap {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 40px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu .menu-list{
+    display: flex;
+}
+
+.footer-menu .menu-list a {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0px;
+    padding: 10px 0;
+    margin: 0 25px 25px 0;
+    font-weight: 400;
+}
+
+.footer-menu .menu-list .menu-blue {
+    color: rgb(30, 202, 211);
+}
+
+.footer-menu .menu-list .menu {
+    color: rgb(85, 85, 85);
+}
+
+.company-info {
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+}
+
+.company-info a {
+    text-decoration: underline;
+    color: rgb(61, 70, 75);
+}
+
+.company-info p:last-child {
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+.footer-right .link-list {
+    display: flex;
+}
+
+.footer-right .link-list a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-right .link-list .youtube {
+    margin-right: 30px;
+}
+
+.footer-right .link-list li:last-child a {
+    margin-right: 0;
+}
+
+.footer-right .link-list img {
+    width: 36px;
+    margin: 5px auto;
+}
+
+.footer-right .link-list .youtube img {
+    width: 180px;
+}

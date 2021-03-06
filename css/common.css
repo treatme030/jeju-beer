@@ -48,6 +48,7 @@ body {
 	line-height: 1.6;
     letter-spacing: -0.5px;
 	color: rgb(61, 70, 75);
+	-webkit-font-smoothing: antialiased;
 }
 
 div,

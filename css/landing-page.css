@@ -1,0 +1,21 @@
+/* Nav */
+.header-wrap {
+    position: relative;
+    z-index: 1000;
+    background-color: thistle;
+}
+
+.nav-menu-container .menu-box .menu-list {
+    border-bottom: 1px solid rgb(255,255,255);
+}
+
+.gnb .right .account li a,
+.nav-menu-container .menu-box .menu-list a {
+    color: rgb(255,255,255);
+}
+
+.gnb .right .account li a:hover,
+.nav-menu-container .menu-box .menu-list a:hover,
+.nav-menu-container .menu-box .menu-list a span:hover {
+    color: rgba(255,255,255, 0.5);
+}
