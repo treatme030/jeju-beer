@@ -1,5 +1,5 @@
-let slideContainer = document.getElementsByClassName('slide-container'),
-    slideList = document.getElementsByClassName('slide-list'),
+
+let slideList = document.getElementById('slide-list-box'),
     slides = document.getElementsByClassName('slide'),
     slideCount = slides.length,
     navPrev = document.getElementById('prev'),
@@ -11,7 +11,7 @@ let slideContainer = document.getElementsByClassName('slide-container'),
     }
 
     function goToSlide(idx) {
-        slideList[0].style.left =  idx * -100 + '%';
+        slideList.style.left =  idx * -100 + '%';
         currentIndex = idx;
     }
 

@@ -1,0 +1,73 @@
+.main-wrap{
+    width: 100%;
+}
+
+.join-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 70px 0 200px;
+    text-align: center;
+}
+
+
+.join-container .join-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(30, 202, 211);
+    text-align: center;
+}
+
+.join-container .join-subtitle {
+    position: relative;
+    top: -6px;
+    padding-bottom: 48px;
+}
+
+.join-box .btn {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1;
+    padding: 10px 25px;
+    text-align: center;
+    line-height: 1.42857143;
+}
+
+.join-box .sign-in {
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.join-box .sign-in a {
+    font-size: 12px;
+    color: rgb(61, 70, 75);
+}
+
+.join-box .divider {
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.join-box .divider .border {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #e7eaee;
+}
+
+.join-box .divider .border.right {
+    left:auto;
+    right: 0;
+}
+
+.join-box .join-sns a {
+    color: rgb(60, 30, 30);
+    background-color: rgb(255, 235, 0);
+    background-image: url('../j-img/kakao_icon.png');
+    background-repeat: no-repeat;
+    background-position: 12px 49%;
+    background-size: 20px;
+}

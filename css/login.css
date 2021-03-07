@@ -1,0 +1,128 @@
+.main-wrap{
+    width: 100%;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 70px 0 200px;
+}
+
+.login-container .login-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(30, 202, 211);
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.login-container .login-title .login-box {
+    width: 100%;
+}
+
+.login-box .account {
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.login-box .email {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.login-box .account input {
+    display: block;
+    width: 100%;
+    line-height: 1.2;
+    background-color: rgb(255,255,255);
+    padding: 12px;
+    border: none;
+}
+
+.login-box .account input::placeholder {
+    font-size: 14px;
+    color: rgb(61, 70, 75);
+}
+
+.login-box .login-check {
+    margin: 14px 0;
+}
+
+.login-box .login-check .cleck-label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.login-box .login-check .cleck-label span {
+    padding-left: 10px;
+}
+
+.login-box .login-text {
+    margin-bottom: 5px;
+}
+
+.login-box .login-text button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgb(255,255,255);
+    background-color: rgb(30, 202, 211);
+    border: 1px solid rgb(30, 202, 211);
+}
+
+.login-box .member {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-box .member a {
+    color: rgb(61, 70, 75);
+}
+
+.login-box .divider {
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.login-box .divider .border {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #e7eaee;
+}
+
+.login-box .divider .border.right {
+    left:auto;
+    right: 0;
+}
+
+.login-box .login-sns {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-box .btn {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.login-box .login-sns a {
+    color: rgb(60, 30, 30);
+    background-color: rgb(255, 235, 0);
+    background-image: url('../j-img/kakao_icon.png');
+    background-repeat: no-repeat;
+    background-position: 12px 49%;
+    background-size: 20px;
+}
+
+.login-box .order a {
+    color: rgb(255,255,255);
+    background-color: rgb(131, 147, 167);
+}

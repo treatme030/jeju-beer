@@ -1,5 +1,5 @@
 //변수지정
-let sliderWrapper = document.getElementsByClassName('present-slide-container');
+
 let sliderContainer = document.getElementsByClassName('present-slide-box');
 let slides = document.getElementsByClassName('present-slide');//슬라이드
 let slideCount = slides.length;//슬라이드 개수

@@ -88,7 +88,7 @@
     display: none;
 }
 
-.slide-container button {
+.slide-container > button {
     position: absolute;
     top: 50%;
     width: 27px;
@@ -98,7 +98,6 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: transparent;
-    
     z-index: 100;
 }
 
@@ -110,6 +109,33 @@
 #next {
     right: 30px;
     background-image: url('../j-img/main-arrow-right.png');
+}
+
+input {
+    display: none;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 2;
+}
+
+.slick-dots .slick-slide {
+    margin: 0 5px;
+    opacity: 0.4;
+}
+
+.slick-dots .slick-slide button {
+    font-size: 0;
+    width: 30px;
+    height: 2px;
+    margin: 0 5px;
+    opacity: 0.4;
+    background-color: rgb(255,255,255);
 }
 
 
