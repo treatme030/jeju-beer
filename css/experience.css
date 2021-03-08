@@ -41,13 +41,11 @@
 
 .main-wrap {
     width: 100%;
-    /* position: relative; */
 }
 
 /* Visual-1 */
 .visual-1-wrap {
     width: 100%;
-    /* position: relative; */
 }
 
 .visual-1-wrap .visual-1 {
@@ -255,7 +253,6 @@
 .quiz-box .hint img {
     width: 58px;
     max-width: 100%;
-
 }
 
 .quiz-box .hint span {
@@ -348,7 +345,6 @@
 .visual-8 {
     max-width: 1200px;
     margin: 0 auto;
-    
     text-align: center;
 }
 
@@ -592,7 +588,7 @@
 .present-slide-box .present-slide {
     position: absolute;
     top: 50%;
-    width: 488px;
+    width: 100%;
     min-height: 651px;
     transform: translateY(-50%);
     
@@ -624,7 +620,7 @@
 }
 
 .present-desc {
-    width: 488px;
+    width: 100%;
     padding: 30px;
     text-align: center;
     background-color: rgb(246, 246, 247);

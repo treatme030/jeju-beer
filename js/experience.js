@@ -1,8 +1,10 @@
 //변수지정
 
 let sliderContainer = document.getElementsByClassName('present-slide-box');
-let slides = document.getElementsByClassName('present-slide');//슬라이드
+let slides = document.getElementsByClassName('p-slide1');//슬라이드
+
 let slideCount = slides.length;//슬라이드 개수
+
 let navPrev = document.getElementById('prev');
 let navNext = document.getElementById('next');
 let currentIndex = 0;//현재 보이는 슬라이드 인덱스 번호
@@ -41,4 +43,8 @@ navNext.addEventListener('click', function(e) {
         goToSlide(0);//마지막일 때 처음으로 이동
     }
 });
+
+
+
+
 
