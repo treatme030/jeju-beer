@@ -4,7 +4,9 @@ let slideList = document.getElementById('slide-list-box'),
     slideCount = slides.length,
     navPrev = document.getElementById('prev'),
     navNext = document.getElementById('next'),
-    currentIndex = 0;
+    currentIndex = 0,
+    pagerBtn = document.querySelectorAll('.slick-dots .slick-slide span');
+    console.log(pagerBtn);
 
     for(let i = 0; i < slideCount; i++) {
         slides[i].style.left =  i*100 + '%';
@@ -13,7 +15,13 @@ let slideList = document.getElementById('slide-list-box'),
     function goToSlide(idx) {
         slideList.style.left =  idx * -100 + '%';
         currentIndex = idx;
+
+        for(let k = 0; k < pagerBtn.length; k++) {
+            pagerBtn[k].classList.remove('active');//페이저 각각에 active 클래스 지우기
+        }
+        pagerBtn[idx].classList.add('active');//이동하는 페이저에만 active 클래스 만들기
     }
+    goToSlide(0);//페이저 초기값 active 클래스 설정
 
     navPrev.addEventListener('click', function() {
         if(currentIndex > 0) {
@@ -31,8 +39,9 @@ let slideList = document.getElementById('slide-list-box'),
         }
     });
 
+    //자동 슬라이드
     setInterval(function() {
-        let nextIdx = (currentIndex + 1) % slideCount;
+        let nextIdx = (currentIndex + 1) % slideCount;//자동으로 계속 돌도록 다음 페이지 인덱스 설정
         goToSlide(nextIdx);
     }, 5000);
 

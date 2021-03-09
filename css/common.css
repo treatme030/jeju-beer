@@ -41,6 +41,16 @@
 	src: url('../fonts/BlackTie-Light-webfont.woff2') format('woff2');
 } */
 
+@keyframes slideInUp {
+	0% {
+    transform: translateY(60%);
+    visiblility: visible;
+    }
+    100% {
+    transform: translateY(0);
+    }
+}   
+
 body {
     font-family: 'Gotham A','Spoqa Han Sans';
 	font-size: 14px;

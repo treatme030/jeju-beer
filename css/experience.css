@@ -125,6 +125,8 @@
 
 .visual-3-text-area p:first-child {
     font-size: 30px;
+    /* animation: slideInUp .7s ;
+    animation-fill-mode: both; */
 }
 
 .visual-3-text-area p {
