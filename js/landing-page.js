@@ -30,3 +30,12 @@ let slideList = document.getElementById('slide-list-box'),
             goToSlide(0);
         }
     });
+
+    setInterval(function() {
+        let nextIdx = (currentIndex + 1) % slideCount;
+        goToSlide(nextIdx);
+    }, 5000);
+
+
+    /* opacity: 0;
+    transition: opacity 300ms linear 0s; */
