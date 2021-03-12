@@ -144,3 +144,49 @@
     color: rgba(85, 88, 91, 0.5); 
     transition: .3s;
 }
+
+/* Moblie-header */
+.m-header-wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.m-header-wrap .m-header {
+    width: 100%;
+    min-height: 30px;
+    margin: 0 auto;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-header-wrap .m-header a {
+    display: inline-block;
+}
+
+.m-header-wrap .m-header .m-logo img {
+    display: block;
+    width: 81px;
+}
+
+.m-header-wrap .m-header .m-menu {
+    padding: 12px 0;
+}
+
+.m-header-wrap .m-header .m-menu svg {
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        display: none;
+    }
+    .m-header-wrap {
+        display: block;
+    }
+}

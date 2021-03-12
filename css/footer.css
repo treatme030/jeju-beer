@@ -72,3 +72,10 @@
 .footer-right .link-list .youtube img {
     width: 180px;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

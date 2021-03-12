@@ -70,6 +70,21 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 991px) {
+    .visual-1-wrap .visual-1 {
+        background-image: url("../j-img/7a5736c9ae9a4.jpg");
+    }
+    .visual-1-text-area {
+        height: 630px;
+        padding: 50px 20px 0;
+    }
+    .visual-1-text-area img {
+        display: block;
+        width: 120px;
+        margin-top: 45px;
+    }
+}
+
 /* Visual-2 */
 .visual-2-wrap {
     width: 100%;
@@ -92,11 +107,36 @@
     padding: 123px;
 }
 
-.visual-2-text-area img {
+.visual-2-text-area img:first-child {
     display: block;
-    width: 404px;
     max-width: 100%;
     margin: 0 auto;
+    width: 404px;
+}
+
+.visual-2-text-area img:last-child {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .visual-2-wrap .visual-2 {
+        background-image: url("../j-img/7f7f9d95f16c3.jpg");
+        background-attachment: inherit;
+    }
+    .visual-2-text-area {
+        padding: 96px 0 335px;
+        height: auto;
+    }
+
+    .visual-2-text-area img:first-child {
+        display: none;
+    }
+
+    .visual-2-text-area img:last-child {
+        display: block;
+        width: 243px;
+        margin: 5px auto;
+    }
 }
 
 /* Visual-3 */
@@ -141,6 +181,14 @@
     font-weight: 700;
 }
 
+@media screen and (max-width: 991px) {
+    .visual-3-text-area {
+        height: 1031px;
+        padding: 180px 15px 0;
+        
+    }
+}
+
 /* Visual-4 */
 .visual-4-wrap {
     width: 100%;
@@ -148,6 +196,12 @@
 
 .visual-4 {
     overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+    .visual-4 video {
+        width: 100%;
+    }
 }
 
 /* Visual-5 */
@@ -267,6 +321,30 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 991px) {
+    .quiz-video {
+        display: none;
+    }
+    .visual-6-text-area {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .quiz-box {
+        padding: 40px 0 25px;
+    }
+    .quiz-box .hint img {
+        width: 25px;
+        margin: 5px 0;
+    }
+    .quiz-box .hint span {
+        padding-left: 10px;
+    }
+    .quiz-box .hint-desc {
+        padding-top: 5px;
+    }
+}
+
 /* Visual-7 */
 .visual-7-wrap {
     width: 100%;
@@ -320,6 +398,23 @@
     padding-bottom: 100px;
 }
 
+.present-img-all {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .visual-7-title {
+        padding-bottom: 30px;
+    }
+    .visual-7 ul {
+        display: none;
+    }
+    .present-img-all {
+        display: block;
+        width: 100%;
+    }
+}
+
 /* Present-line */
 .present-line-wrap {
     width: 100%;
@@ -337,6 +432,12 @@
     position: relative;
     top: 45px;
     width: 182px;
+}
+
+@media screen and (max-width: 991px) {
+    .present-line-wrap {
+        padding: 0 15px;
+    }
 }
 
 /* Visual-8 */
@@ -514,6 +615,41 @@
     background-position: 50% 50%;
 }
 
+@media screen and (max-width: 1200px) {
+    .house-img-box {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .house-img-item {
+        padding: 15px;
+    }
+    .house-img-item .house-img {
+        min-height: 370px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .house-sktech img {
+        width: 750px;
+        margin: auto 193px;
+    }
+    .house-sktech-box {
+        display: block;
+    }
+    .house-sktech-box .sktech-desc {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .house-sktech-box .sktech-desc a {
+        margin-bottom: 10px;
+    }
+}
+
 /* Trip */
 .trip-wrap {
     width: 100%;
@@ -594,7 +730,6 @@
     width: 100%;
     min-height: 651px;
     transform: translateY(-50%);
-    
 }
 
 .present-nav {
@@ -638,6 +773,29 @@
 
 .rent-info p {
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .present-img {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .present-slide-container {
+        min-height: 480px;
+    }
+    .present-slide-box .present-slide {
+        min-height: 480px;
+        background-size: contain;
+    }
+    .present-box {
+        padding: 100px 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.rent-info {
+        width: 100%;
+    }
 }
 
 /* Event-info */
@@ -827,6 +985,18 @@
     width: 1015px;
     max-width: 100%;
     margin: 5px auto;
+}
+
+@media screen and (max-width: 991px) {
+    .visual-9-text-area {
+        padding-top: 110px;
+    }
+	.visual-9-wrap .visual-9 {
+        background-attachment: inherit;
+    }
+    .visual-9-text-area img {
+        width: 282px;
+    }
 }
 
 /* Covid */

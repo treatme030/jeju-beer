@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+    .m-header-wrap .m-header .m-menu svg {
+        fill: rgb(30, 202, 211);
+    }
+}
+
 .main-wrap{
     width: 100%;
 }

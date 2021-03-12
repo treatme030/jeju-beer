@@ -31,7 +31,7 @@ function goToSlide(idx) {
 setInterval(function() {
     let nextIdx = (currentIndex + 1) % slideCount;
     
-    // goToSlide(nextIdx);
+    goToSlide(nextIdx);
 }, 5000);
 
 //버튼 클릭하면 슬라이드 이동시키기
