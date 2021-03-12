@@ -108,7 +108,7 @@
     display: none;
 }
 
-.slide-container > button {
+.slide-container button {
     position: absolute;
     top: 50%;
     width: 27px;
@@ -118,10 +118,6 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: transparent;
-    z-index: 100;
-}
-
-.slide-container button {
     z-index: 1000;
 }
 
@@ -159,7 +155,15 @@
     opacity: .4;
 }
 
-
+@media screen and (max-width: 1200px) {
+    .slide-container {
+        height: 828px;
+    }
+    .slide-container .slide-list .slide { 
+        width: 1200px;
+        min-height: 100vh;
+    }
+}
 
 
 
