@@ -7,7 +7,6 @@ let mMenu = document.getElementById('mMenu'),
         customMenu.style= 'display: flex; opacity: 1;';
     });
 
-    closeBtn.addEventListener('click', function(e){
-        e.preventDefault();
+    closeBtn.addEventListener('click', function(){
         customMenu.style= 'display: none; opacity: 0;';
     });
