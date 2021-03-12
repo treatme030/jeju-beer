@@ -101,8 +101,21 @@ button {
 	display: none;
 }
 
+.hidden-point-m {
+	display: none;
+}
+
 @media screen and (max-width: 991px) {
 	.hidden-point {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hidden-point {
+		display: none;
+	}
+	.hidden-point-m {
 		display: block;
 	}
 }

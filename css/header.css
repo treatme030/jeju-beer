@@ -28,6 +28,23 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .floating-btn {
+        right: 15px;
+        bottom: 15px;
+        width: 45px;
+    }
+    .floating-btn .top {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 10px) {
+    .floating-btn .top {
+        display: block;
+    }
+}
+
 /* Header */
 
 .header-wrap {
@@ -258,8 +275,11 @@
 }
 
 .custom-menu-util li a {
-    margin-right: 20px;
     color: rgb(255,255,255);
+}
+
+.custom-menu-util li:first-child a {
+    margin-right: 20px;
 }
 
 .custom-menu-body {

@@ -70,6 +70,10 @@
     min-width: 150vh;
 }
 
+.slide-container .slide-list .slide .slide-m {
+    display: none;
+}
+
 .slide-container .slide-list a {
     position: absolute;
     top: 0;
@@ -162,6 +166,55 @@
     .slide-container .slide-list .slide { 
         width: 1200px;
         min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-container {
+        height: 936px;
+    }
+    .slide-container .slide-list .slide { 
+        width: 905px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 10px) {
+    .slide-container .slide-list .slide { 
+        width: 463px;
+    }
+    .slide-container .slide-list .slide video {
+        min-width: 65vh;
+    }
+    .slide-container .slide-list .slide .slide-web {
+        display: none;
+    }
+    .slide-container .slide-list .slide .slide-m {
+        display: block;
+    }
+    .slick-dots .slick-slide span {
+        width: 15px;
+    }
+    .slide-container button {
+        width: 15px;
+        height: 29px;
+        margin-top: -18px;
+    }
+    #prev {
+        left: 15px;
+    }
+    #next {
+        right: 15px;
+    }
+    .slide-list .slide dl {
+        padding-bottom: 48px;
+    }
+    .slide-list .slide dl dt {
+        font-size: 14px;
+    }
+    .slide-list .slide dl dd {
+        font-size: 23px;
+        margin-top: 18px;
+        padding-top: 3px;
     }
 }
 
