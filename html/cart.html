@@ -7,14 +7,14 @@
     <meta name="keywords" content="제주맥주">
     <meta name="application-name" content="제주맥주, 매일의 여행을 만든다">
     <meta name="description" content="여행은 잠시나마 익숙한 것들과 이별하는 순간이다">
-    <link rel="icon" href="j-img/jeju.png">
+    <link rel="icon" href="../j-img/jeju.png">
     <title>제주맥주, 매일의 여행을 만든다</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/landing-page.css">
-    <script defer src="js/landing-page.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
 </head>
 <body>
     <div class="wrap">
@@ -30,14 +30,14 @@
                     <div class="gnb">
                         <div class="left"></div>
                         <div class="center">
-                            <a class="jeju-logo" href="">
-                                <img src="j-img/10833fe759214.png" alt="제주맥주 로고">
+                            <a class="jeju-logo" href="landing-page.html">
+                                <img src="../j-img/408847c5dabec.png" alt="제주맥주 로고">
                             </a>
                         </div>
                         <div class="right">
                             <ul class="account">
                                 <li><a href="login.html">LOGIN</a></li>
-                                <li><a href="join.html">JOIN</a></li>
+                                <li><a href="#">JOIN</a></li>
                                 <li><a href="">CART</a></li>
                             </ul>
                             <div class="club">
@@ -65,7 +65,7 @@
         <div class="m-header-wrap">
             <div class="m-header">
                 <a class="m-logo" href="landing-page.html">
-                    <img src="j-img/9cc1ed6cc015d.png" alt="">
+                    <img src="../j-img/275273a70cc40.png" alt="">
                 </a>
                 <a class="m-menu" href="">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="27px" height="27px">
@@ -77,78 +77,36 @@
         </div>
         <main>
             <div class="main-wrap">
-                <div class="slide-container">
-                    <ul id="slide-list-box" class="slide-list">
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_+brandfilm_web.mp4"></video>
-                            <a href=""></a>
-                        </li>
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_brewery_web.mp4"></video>
-                            <dl class="fc-w">
-                                <dt>BREWERY</dt>
-                                <dd>양조장 투어 예약</dd>
-                            </dl>
-                            <a href=""></a>
-                        </li>
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_shop_web.mp4"></video>
-                            <dl class="fc-w">
-                                <dt>SHOP</dt>
-                                <dd>#제주맥주</dd>
-                            </dl>
-                            <a href=""></a>
-                        </li>
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_playlist_web.mp4"></video>
-                            <dl class="fc-w">
-                                <dt>PLAYLIST</dt>
-                                <dd>휴가는 못 냈지만,<br>
-                                제주 여행 중</dd>
-                            </dl>
-                            <a href=""></a>
-                        </li>
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_experience2_web.mp4"></video>
-                            <dl>
-                                <dt>EXPERIENCE</dt>
-                                <dd>제주맥주<br>
-                                한달살기</dd>
-                            </dl>
-                            <a href=""></a>
-                        </li>
-                        <li class="slide">
-                            <video muted playsinline autoplay loop src="https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_home_ourale_web.mp4"></video>
-                            <dl class="fc-w">
-                                <dt>EVENT</dt>
-                                <dd>총 1,000만원<br>
-                                이벤트</dd>
-                            </dl>
-                            <a href=""></a>
-                        </li>
-                    </ul>
-                    <button id="prev" ></button>
-                    <button id="next" ></button>
-                    <ul class="slick-dots">
-                        <li class="slick-slide">
-                            <span tabindex="0">1</span>
-                        </li>
-                        <li class="slick-slide">
-                            <span tabindex="1">2</span>
-                        </li>
-                        <li class="slick-slide">
-                            <span tabindex="2">3</span>
-                        </li>
-                        <li class="slick-slide">
-                            <span tabindex="3">4</span>
-                        </li>
-                        <li class="slick-slide">
-                            <span tabindex="4">5</span>
-                        </li>
-                        <li class="slick-slide">
-                            <span tabindex="5">6</spna>
-                        </li>
-                    </ul>
+                <div class="cart-container">
+                    <p class="cart-title">CART</p>
+                    <p class="cart-subtitle">당신의 제주는 어떤가요?</p>
+                    <div class="cart-box">
+                        <h1 class="shop-title">장바구니
+                            <span class="count-btn">
+                                <em>0</em>
+                            </span>
+                        </h1>
+                        <div class="cart-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>item</th>
+                                        <th>위시</th>
+                                        <th>수량</th>
+                                        <th>배송수단</th>
+                                        <th>배송비</th>
+                                        <th>가격</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>
+                                        <i class="xi-cart-o"></i>
+                                        <p>장바구니가 비었습니다.</p>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -184,22 +142,22 @@
                         <ul class="link-list">
                             <li>
                                 <a class="youtube" href="">
-                                    <img src="j-img/744fb889f12ee.png" alt="">
+                                    <img src="../j-img/744fb889f12ee.png" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="j-img/ebbb26702920a.png" alt="">
+                                    <img src="../j-img/ebbb26702920a.png" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="j-img/6f391ebbb0949.png" alt="">
+                                    <img src="../j-img/6f391ebbb0949.png" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="j-img/21cc9ddee0e02.png" alt="">
+                                    <img src="../j-img/21cc9ddee0e02.png" alt="">
                                 </a>
                             </li>
                         </ul>
