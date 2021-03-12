@@ -14,8 +14,13 @@
     background-size: 99%;
 }
 
+.floating-btn .talk {
+    background-image: url('../j-img/2616c012b78f3.png');
+}
+
 .floating-btn .share {
     background-image: url('../j-img/button-share.png');
+    margin-top: 10px;
 }
 
 .floating-btn .top {
