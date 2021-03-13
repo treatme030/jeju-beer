@@ -4,9 +4,10 @@ let mMenu = document.getElementById('mMenu'),
 
     mMenu.addEventListener('click', function(e){
         e.preventDefault();
-        customMenu.style= 'display: flex; opacity: 1;';
+        customMenu.style= 'z-index: 3000; opacity: 1; animation: fadeIn .3s;';
     });
 
     closeBtn.addEventListener('click', function(){
-        customMenu.style= 'display: none; opacity: 0;';
+        customMenu.style= 'z-index: -1; opacity: 0; animation: fadeOut .3s;';
     });
+    
