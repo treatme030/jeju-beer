@@ -1,3 +1,13 @@
+/*  */
+.floating-btn {
+    bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .floating-btn .top {
+        display: none;
+    }
+}
 
 /* Nav */
 .header-wrap {

@@ -34,9 +34,6 @@
         bottom: 15px;
         width: 45px;
     }
-    .floating-btn .top {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 480px) and (min-width: 10px) {
