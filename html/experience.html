@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/experience.css">
+    <script defer src="../js/common.js"></script>
     <script defer src="../js/experience.js"></script>
     <script defer src="../js/custom-menu.js"></script>
 </head>
@@ -24,7 +25,7 @@
         <div class="floating-btn">
             <a class="talk" href=""></a>
             <a class="share" href=""></a>
-            <a class="top" href=""></a>
+            <a id="topBtn" class="top" href="#"></a>
         </div>
         <!-- Experience-btn -->
         <div class="experience-btn-wrap">
@@ -594,18 +595,24 @@
                         <div class="present-img-list">
                             <div class="present-img-box">
                                 <div class="circle-box bg-blue">
-                                    <img class="pt-20" src="../j-img/48fde8ad46450.png" alt="">
+                                    <img class="pt-20 circle-web" src="../j-img/48fde8ad46450.png" alt="">
+                                    <img class="pt-20 circle-m" src="../j-img/d792d61e1b6be.png" alt="">
                                     <p>첫 번째<br>
                                         쿠폰</p>
                                 </div>
                                 <div class="present-slide-container">
                                     <div class="present-slide-box">
-                                        <ul class="present-slide-list">
-                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/7703e56d36418.jpg');"></li>
+                                        <ul class="present-slide-list present-web">
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/b3e60dc90b8f7.jpg');"></li>
                                             <li class="present-slide p-slide1" style="background-image: url('../j-img/49314fcc3049c.jpg');"></li>
                                             <li class="present-slide p-slide1" style="background-image: url('../j-img/a9cd3d0604197.jpg');"></li>
-                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/96687885f486a.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/7359383aefc6f.jpg');"></li>
                                             <li class="present-slide p-slide1" style="background-image: url('../j-img/118bf68d02a0d.jpg');"></li>
+                                        </ul>
+                                        <ul class="present-slide-list present-m">
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/762dffd0ba3eb.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/c91fc24ca9b11.jpg');"></li>
+
                                         </ul>
                                         <div class="present-nav">
                                             <span class="xi-angle-left-thin prev"></span>
@@ -621,54 +628,70 @@
 
                             <div class="present-img-box">
                                 <div class="circle-box bg-blue">
-                                    <img class="pt-20" src="../j-img/48fde8ad46450.png" alt="">
+                                    <img class="circle-web" src="../j-img/5f3499d7977fa.png" alt="">
+                                    <img class="pt-20 circle-m" src="../j-img/216c3aa4045ae.png" alt="">
                                     <p>두 번째<br>
                                         쿠폰</p>
                                 </div>
                                 <div class="present-slide-container">
                                     <div class="present-slide-box">
-                                        <ul class="present-slide-list">
+                                        <ul class="present-slide-list present-web">
                                             <li class="present-slide p-slide2" style="background-image: url('../j-img/0a484267b39ab.jpg');"></li>
                                             <li class="present-slide p-slide2" style="background-image: url('../j-img/62c3bd7952d7c.jpg');"></li>
                                             <li class="present-slide p-slide2" style="background-image: url('../j-img/b49cb3f0a43d8.jpg');"></li>
                                             <li class="present-slide p-slide2" style="background-image: url('../j-img/1333bcb97e0ec.jpg');"></li>
                                             <li class="present-slide p-slide2" style="background-image: url('../j-img/888ef08762373.jpg');"></li>
                                         </ul>
-                                        <div class="present-nav">
-                                            <span class="xi-angle-left-thin prev"></span>
-                                            <span class="xi-angle-right-thin next"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="present-desc">
-                                    <p class="text-20"><span class="title-26"><strong>제주맥주 양조장</strong></span> 도슨트 투어</p>
-                                    <p class="text-16"><span class="fs-13">제주특별자치도 제주시 한림읍 금능농공길 62-11</span></p>
-                                </div>
-                            </div>
-
-                            <div class="present-img-box">
-                                <div class="circle-box bg-blue">
-                                    <img class="pt-20" src="../j-img/48fde8ad46450.png" alt="">
-                                    <p>세 번째<br>
-                                        쿠폰</p>
-                                </div>
-                                <div class="present-slide-container">
-                                    <div class="present-slide-box">
-                                        <ul class="present-slide-list">
-                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/54a376ae4b20e.jpg');"></li>
-                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/efd546933ac37.jpg');"></li>
-                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/feb5209edd2a5.jpg');"></li>
-                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/24d2466b3fed9.jpg');"></li>
+                                        <ul class="present-slide-list present-m">
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/dc78eece5e39c.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/e69bb7e9ca262.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/026d158c6c59d.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/d5c44b0652026.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/cdb332fc20732.jpg');"></li>
                                         </ul>
                                         <div class="present-nav">
                                             <span class="xi-angle-left-thin prev"></span>
                                             <span class="xi-angle-right-thin next"></span>
                                         </div>
                                     </div>
+                                    <div class="present-desc">
+                                        <p class="text-20"><span class="title-26"><strong>제주맥주 양조장</strong></span> 도슨트 투어</p>
+                                        <p class="text-16"><span class="fs-13">제주특별자치도 제주시 한림읍 금능농공길 62-11</span></p>
+                                    </div>
                                 </div>
-                                <div class="present-desc">
-                                    <p class="text-20"><span class="title-26"><strong>카멜리아힐</strong></span> 동백꽃밭 산책</p>
-                                    <p class="text-16"><span class="fs-13">제주특별자치도 서귀포시 안덕면 병악로 166</span></p>
+                            </div>
+
+                            <div class="present-img-box">
+                                <div class="circle-box bg-blue">
+                                    <img class="circle-web" src="../j-img/03b53f13bb865.png" alt="">
+                                    <img class="pt-20 circle-m" src="../j-img/3fc5b5af9b82a.png" alt="">
+                                    <p>세 번째<br>
+                                        쿠폰</p>
+                                </div>
+                                <div class="present-slide-container">
+                                    <div class="present-slide-box">
+                                        <ul class="present-slide-list present-web">
+                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/54a376ae4b20e.jpg');"></li>
+                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/efd546933ac37.jpg');"></li>
+                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/feb5209edd2a5.jpg');"></li>
+                                            <li class="present-slide p-slide3" style="background-image: url('../j-img/24d2466b3fed9.jpg');"></li>
+                                        </ul>
+                                        <ul class="present-slide-list present-m">
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/06a6b3fe51b61.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/d0bf6ee8f6ba0.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/5edb8f0f6cdb5.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/78c958f950b61.jpg');"></li>
+                                            <li class="present-slide p-slide1" style="background-image: url('../j-img/5edb8f0f6cdb5.jpg');"></li>
+                                        </ul>
+                                        <div class="present-nav">
+                                            <span class="xi-angle-left-thin prev"></span>
+                                            <span class="xi-angle-right-thin next"></span>
+                                        </div>
+                                    </div>
+                                    <div class="present-desc">
+                                        <p class="text-20"><span class="title-26"><strong>카멜리아힐</strong></span> 동백꽃밭 산책</p>
+                                        <p class="text-16"><span class="fs-13">제주특별자치도 서귀포시 안덕면 병악로 166</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
