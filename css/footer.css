@@ -24,12 +24,24 @@
     font-weight: 400;
 }
 
+.footer-menu .menu-list a {
+    transition: color .2s;
+}
+
 .footer-menu .menu-list .menu-blue {
     color: rgb(30, 202, 211);
 }
 
+.footer-menu .menu-list .menu-blue:hover {
+    color: rgba(30, 202, 211, 0.5);
+}
+
 .footer-menu .menu-list .menu {
     color: rgb(85, 85, 85);
+}
+
+.footer-menu .menu-list .menu:hover {
+    color: rgba(0, 0, 0, 0.2);
 }
 
 .company-info {
