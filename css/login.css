@@ -1,7 +1,4 @@
 /* Header */
-.floating-btn .top {
-    display: none;
-}
 
 @media screen and (max-width: 1200px) {
     .m-header-wrap .m-header .m-menu svg {

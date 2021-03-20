@@ -17,11 +17,13 @@ window.addEventListener('scroll', function(){
 //     scrollToTop();
 // });
 
-// //스크롤 양이 0이 아닐 때 일정시간마다 높이 조금씩 빼서 위로 이동하기
+// //스크롤 양이 0이 아닐 때 일정시간마다 높이 조금씩 빼서 위로 서서히 이동하기
 // function scrollToTop(){
-//     setInterval(function(){
+//     let scrollInterval = setInterval(function(){
 //         if(scrollHeight !=0){
 //             window.scrollBy(0, -55);// -55씩 높이 빼주기, scrollBy(x, y)
+//         } else {
+//             clearInterval(scrollInterval);//스크롤 양이 0일 때는 setInterval 제거
 //         }
-//     }, 15);
+// }, 15);
 // }
