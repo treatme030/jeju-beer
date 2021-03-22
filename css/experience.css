@@ -1,3 +1,4 @@
+
 /* Experience-btn */
 .experience-btn-wrap {
     position: fixed;
@@ -61,7 +62,7 @@
 }
 
 .visual-1-wrap .visual-1 {
-    background-image: url("../j-img/cae195eaad8be.jpg");
+    background-image: url("../j-img/experience-img/cae195eaad8be.jpg");
     background-position: 50% 50%;
 }
 
@@ -84,7 +85,7 @@
 
 @media screen and (max-width: 991px) {
     .visual-1-wrap .visual-1 {
-        background-image: url("../j-img/7a5736c9ae9a4.jpg");
+        background-image: url("../j-img/experience-img/7a5736c9ae9a4.jpg");
     }
     .visual-1-text-area {
         height: 630px;
@@ -99,7 +100,7 @@
 
 @media screen and (max-width: 768px) {
     .visual-1-wrap .visual-1 {
-        background-image: url("../j-img/5040b2e3ee63d.jpg");
+        background-image: url("../j-img/experience-img/5040b2e3ee63d.jpg");
     }
 }
 
@@ -109,7 +110,7 @@
 }
 
 .visual-2-wrap .visual-2 {
-    background-image: url("../j-img/1b16455966561.jpg");
+    background-image: url("../j-img/experience-img/1b16455966561.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;/*배경 뷰포트에 고정, 스크롤시 움직이지 않음*/
 }
@@ -138,7 +139,7 @@
 
 @media screen and (max-width: 991px) {
     .visual-2-wrap .visual-2 {
-        background-image: url("../j-img/7f7f9d95f16c3.jpg");
+        background-image: url("../j-img/experience-img/7f7f9d95f16c3.jpg");
         background-attachment: inherit;
     }
     .visual-2-text-area {
@@ -163,7 +164,7 @@
 }
 
 .visual-3-wrap .visual-3 {
-    background-image: url("../j-img/d5737138d0795.png");
+    background-image: url("../j-img/experience-img/d5737138d0795.png");
     background-position: center center;
     background-size: 1920px;
 }
@@ -207,7 +208,7 @@
 
 @media screen and (max-width: 768px) {
     .visual-3-wrap .visual-3 {
-        background-image: url("../j-img/f2ee9adbdb889.png");
+        background-image: url("../j-img/experience-img/f2ee9adbdb889.png");
         background-size: cover;
     }
     .visual-3-text-area {
@@ -273,7 +274,7 @@
     max-width: 608px;
     margin: 0 auto;
     height: 326px;
-    background-image: url("../j-img/ff642596fd72b.png");
+    background-image: url("../j-img/experience-img/ff642596fd72b.png");
     padding-top: 120px;
 }
 
@@ -639,7 +640,7 @@
 }
 
 .house.first {
-    background-image: url("../j-img/8ca16c813045f.jpg");
+    background-image: url("../j-img/experience-img/8ca16c813045f.jpg");
     background-position: 50% 50%;
 }
 
@@ -742,13 +743,13 @@
 
 /* House-second */
 .house.second {
-    background-image: url("../j-img/4ed16890f4f9d.jpg");
+    background-image: url("../j-img/experience-img/4ed16890f4f9d.jpg");
     background-position: 50% 50%;
 }
 
 /* House-third */
 .house.third {
-    background-image: url("../j-img/681600f4f163e.jpg");
+    background-image: url("../j-img/experience-img/681600f4f163e.jpg");
     background-position: 50% 50%;
 }
 
@@ -815,13 +816,13 @@
         margin-bottom: 10px;
     }
     .house.first {
-        background-image: url("../j-img/1fb88ed67b07f.jpg");
+        background-image: url("../j-img/experience-img/1fb88ed67b07f.jpg");
     }
     .house.second {
-        background-image: url("../j-img/5d06094aa2b7a.jpg");
+        background-image: url("../j-img/experience-img/5d06094aa2b7a.jpg");
     }
     .house.third {
-        background-image: url("../j-img/ce1810ccebe98.jpg");
+        background-image: url("../j-img/experience-img/ce1810ccebe98.jpg");
     }
 }
 
@@ -997,6 +998,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    display: none;
 }
 
 .present-nav span:before {
@@ -1123,7 +1125,7 @@
     .rent-info p:first-child {
         font-size: 14px;
         padding-bottom: 0;
-    }
+    } 
     .present-box .rent-img {
         width: 160px;
     }
@@ -1356,15 +1358,15 @@
 }
 
 .social .social-btn-list .kakao {
-    background-image: url("../j-img/button-sns-talk.png");
+    background-image: url("../j-img/experience-img/button-sns-talk.png");
 }
 
 .social .social-btn-list .facebook {
-    background-image: url("../j-img/button-sns-face.png");
+    background-image: url("../j-img/experience-img/button-sns-face.png");
 }
 
 .social .social-btn-list .url {
-    background-image: url("../j-img/button-sns-url.png");
+    background-image: url("../j-img/experience-img/button-sns-url.png");
 }
 
 @media screen and (max-width: 991px) {
@@ -1397,7 +1399,7 @@
 }
 
 .visual-9-wrap .visual-9 {
-    background-image: url("../j-img/dd41a9358ca50.jpg");
+    background-image: url("../j-img/experience-img/dd41a9358ca50.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;/*배경 뷰포트에 고정, 스크롤시 움직이지 않음*/
 }

@@ -69,6 +69,26 @@
 	}
 }
 
+@keyframes moveLeftRight {
+	0%, 
+	100% {
+		left: 0;
+	}
+	50% {
+		left: -20%;
+	}
+}
+
+@keyframes moveRingtLeft {
+	0%, 
+	100% {
+		right: 0;
+	}
+	50% {
+		right: -20%;
+	}
+}
+
 body {
     font-family: 'Gotham A','Spoqa Han Sans';
 	font-size: 14px;

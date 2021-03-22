@@ -1,0 +1,67 @@
+/* Main Code */
+
+.main_wrap {
+    width: 100%;
+    max-height: 1578.220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.play1, .play2, .play3, .play4 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    font-size: 1.8745vw;
+}
+
+.play1 video, .play2 video, .play3 video, .play4 video {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.play1_main, .play2_main, .play3_main, .play4_main {
+    width: 100%;
+    height: 100%;
+    padding: 1.388em 2.083em;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.number {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    font-family: 'Gatham_Bold';
+    font-weight: 1000;
+    font-style: italic;
+    margin-bottom: 0.3333333333em;
+}
+
+.title {
+    width: 100%;
+    display: block;
+    font-size: 0.9em;
+    font-family: 'Gatham_Medium';
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-top: 0.3em;
+    border-top: 1px solid white;
+    font-family: 'Gatham_Medium';
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}

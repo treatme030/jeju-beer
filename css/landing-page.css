@@ -137,13 +137,13 @@
 
 #prev {
     left: 30px;
-    background-image: url('../j-img/main-arrow-left.png');
+    background-image: url('../j-img/icon/main-arrow-left.png');
     
 }
 
 #next {
     right: 30px;
-    background-image: url('../j-img/main-arrow-right.png');
+    background-image: url('../j-img/icon/main-arrow-right.png');
 }
 
 .slick-dots {

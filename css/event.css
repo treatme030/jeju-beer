@@ -1,0 +1,760 @@
+/* Main Code */
+
+.blank {
+    width: 100%;
+    height: 35px;
+}
+
+.wrap_1 {
+    width: 100%;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap_1 div:first-child,
+.wrap_1 div:last-child {
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_1_left {
+    flex: 0.5;
+    background-color: rgb(0, 61, 166);
+    height: 100%;
+}
+
+.wrap_1_center {
+    width: 1200px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_1_center img {
+    width: 450px;
+    max-width: 100%;
+}
+
+.wrap_1_right {
+    flex: 0.5;
+    height: 100%;
+    background-color: rgb(61, 174, 43);
+}
+
+.wrap_video {
+    width: 100%;
+    height: 750px;
+}
+
+.wrap_video video {
+    max-width: 100%;
+    height: 670px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrap_2 {
+    width: 100%;
+    height: 683px;
+}
+
+.wrap_2_main {
+    width: 1200px;
+    height: 298px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrap_2_main_text1 {
+    height: 108px;
+    font-family: "Gotham_Bold";
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(16, 24, 32);
+    text-align: center;
+}
+
+.wrap_2_main_text2 {
+    height: 90px;
+    font-family: "Gotham_Bold";
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(16, 24, 32);
+    text-align: center;
+}
+
+.wrap_2_main_text_B {
+    font-family: "Gotham_Bold";
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(16, 24, 32);
+    text-align: center;
+}
+
+.wrap_2_main p br {
+    height: 31px;
+}
+
+.wrap_2_blank1 {
+    height: 100px;
+}
+
+.wrap_2_eventend {
+    width: 100%;
+    height: 285.05px;
+}
+
+.wrap_2_eventend_guide img {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.wrap_2_blank2 {
+    width: 100%;
+    height: 100px;
+}
+
+.wrap_3 {
+    width: 100%;
+    height: 1586.02px;
+    display: block;
+    background-image: url('../j-img/event-img/798b2ffac80ca.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.wrap_3_main {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap_3_left,
+.wrap_3_right {
+    flex: 0.5;
+    height: 100%;
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_3_center {
+    width: 1200px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border: 10px solid rgb(16, 24, 32);
+    background-color: rgb(0, 61, 166);
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: "Gotham_Bold";
+    padding: 3px 0;
+}
+
+.wrap_3_text {
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 680px;
+}
+
+.wrap_3_text img {
+    width: 360px;
+}
+
+.wrap_3_text {
+    font-size: 38px;
+}
+.wrap_3_text p span {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.wrap_3_text .text-event-wrap {
+    display: flex;
+    border-bottom: 10px solid #101820;
+}
+
+.wrap_3_text .text-event {
+    display: inline-block;
+    width: 160px;
+    font-size: 27px;
+    background: #fabd00;
+    border: 10px solid #101820;
+    border-bottom: none;
+}
+
+.wrap_3_text .check {
+    padding: 35px 0;
+    border-bottom: 10px solid #101820;
+}
+
+.wrap_4_main {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_4_left {
+    width: calc((100% - 1200px)/2);
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_4_center {
+    width: 1200px;
+    height: 95px;
+    border: 10px solid rgb(16, 24, 32);
+    background-color: rgb(61, 174, 43) ;
+    color: rgb(16, 24, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: "Gotham_Bold";
+    padding: 3px 0;
+}
+
+.wrap_4_right {
+    width: calc((100% - 1200px)/2);
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_5 {
+    width: 100%;
+    height: 313px;
+}
+
+.wrap_5_blank1 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    display: block;
+}
+
+.wrap_5_blank1 img {
+    width: auto;
+    height: auto;
+    max-width: 169px;
+    top: -7px; 
+    left: calc(50% + 620px);
+    position: absolute;
+}
+
+.wrap_5_text {
+    width: 100%;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Gotham_Bold";
+    line-height: 41.4px;
+    color: rgb(16, 24, 31);
+    text-align: center;
+}
+
+.wrap_5_blank2 {
+    width: 100%;
+    height: 120px;
+}
+
+.wrap_6 {
+    position: relative;
+    width: 100%;
+    height: 1036.27px;
+    overflow: hidden;
+}
+
+.wrap_6 .hand.left {
+    position: absolute;
+    left: 0;
+    bottom: 260px;
+    animation: moveLeftRight 3.5s linear infinite;
+}
+
+.hand img {
+    display: block;
+    width: 700px;
+}
+
+.wrap_6_main {
+    width: 1400px;
+    height: 949.63px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_6_left {
+    width: 659px;
+    height: 100%;
+    margin: 5px 0;
+    background-image: url('../j-img/event-img/4fc081907b459.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.wrap_6_right {
+    width: calc(100% - 659px);
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrap_6_border {
+    width: 700px;
+    height: 100%;
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+    padding: 0 15px;
+}
+
+.wrap_6_text1 {
+    width: 670px;
+    height: 373.3px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+}
+
+.subtitle_font {
+    font-size: 28px;
+    font-family: "Gotham_Medium";
+    font-weight: 800;
+    color: rgb(16, 24, 32);
+}
+
+.subtitle1 {
+    width: 100%;
+    height: 54px;
+    padding-bottom: 10px;
+    line-height: 44.8px;
+}
+
+.contents_font {
+    font-size: 18px;
+    font-family: "Gotham_Medium";
+    font-weight: 400;
+    color: rgb(16, 24, 32);
+}
+
+.contents {
+    width: 100%;
+    height: 128px;
+    line-height: 32px;    
+}
+
+.images1 {
+    width: 100%;
+    height: 46.3px;
+    padding-top: 15px;
+}
+
+.images1 img {
+    width: 290px;
+    height: 26.3px;
+}
+
+.wrap_6_text2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.subtitle2 {
+    width: 100%;
+    height: 54px;
+    padding-bottom: 10px;
+    line-height: 44.8px;
+}
+
+.contents2 {
+    width: 100%;
+    height: 96px;
+    line-height: 32px;  
+}
+
+.wrap_6_text3 {
+    width: 100%;
+    height: 406.33px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+}
+
+.subtitle3 {
+    width: 100%;
+    height: 54px;
+    padding-bottom: 10px;
+    line-height: 44.8px;
+}
+
+.contents3 {
+    width: 100%;
+    height: 160px;
+    line-height: 32px;
+}
+
+.images2 {
+    width: 100%;
+    height: 47.33px;
+    padding-top: 15px;
+}
+
+.images2 img {
+    width: 230px;
+    height: 27.3px;
+}
+
+.wrap_7 {
+    width: 100%;
+    height: 770.72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrap_7_blank1 {
+    width: 100%;
+    height: 60px;
+}
+
+.wrap_7_title {
+    width: 100%;
+    height: 46px;
+    font-size: 28px;
+    font-family: "Gotham_Medium";
+    font-weight: 400;
+    color: rgb(16, 24, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_7_blank2 {
+    width: 100%;
+    height: 20px;
+}
+
+.wrap_7_search {
+    width: 100%;
+    height: 91.72px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_7_search img{
+    width: 415px;
+    height: 66.719px;
+}
+
+.wrap_7_blank3 {
+    width: 100%;
+    height: 20px;
+}
+
+.wrap_7_images {
+    width: 100%;
+    height: 512px;
+}
+
+.container {
+    width: 100%;
+    height: 492px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container img {
+    max-width: 641px;
+    height: 492px;
+    object-fit: cover;
+}
+
+.container img:nth-child(2) {
+    margin: 0 10px;
+}
+
+.owldots {
+    width: 100%;
+    height: 22px;
+}
+
+.wrap_7_blank4 {
+    width: 100%;
+    height: 80px;
+}
+
+.wrap_8 {
+    width: 100%;
+    height: 411px;
+}
+
+.wrap_8_top {
+    position: relative;
+    height: 316px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 250px;
+}
+
+.wrap_8_top div {
+    width: 650px;
+    font-size: 35px;
+    font-weight: 800;
+    background: #fabd00;
+    border: 10px solid #101820;
+    border-bottom: none;
+    text-align: center;
+}
+
+.wrap_8_top img {
+    position: absolute;
+    bottom: -44px;
+    right: 150px;
+    width: 408px;
+    display: block;
+    z-index: 99;
+}
+
+.wrap_8_bottom {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap_8_left,
+.wrap_8_right {
+    flex: 0.5;
+    height: 100%;
+    border-top: 10px solid rgb(16, 24, 32);
+    border-bottom: 10px solid rgb(16, 24, 32);
+}
+
+.wrap_8_center {
+    width: 1200px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border: 10px solid rgb(16, 24, 32);
+    background-color: rgb(0, 61, 166);
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: "Gotham_Bold";
+    padding: 3px 0;
+}
+
+.wrap_8_center p span {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.wrap_9 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: url('../j-img/event-img/5ca425a467ce2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+
+.wrap_9 .hand.right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    animation: moveRingtLeft 3.5s linear infinite;
+}
+
+.wrap_10 {
+    width: 100%;
+    height: 179px;
+}
+
+.wrap_11 {
+    max-width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #101820;
+}
+
+.wrap_11_top {
+    height: 208px;
+    
+}
+
+.wrap_11_text1 {
+    height: 54px;
+    font-size: 28px;
+}
+
+.wrap_11_text2 {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 130%
+}
+
+.wrap_11_blank1 {
+    height: 50px;
+}
+
+.wrap_11_blank2 {
+    height: 120px;
+}
+
+.wrap_11_bottom {
+    height: 82px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.wrap_11_bottom .point {
+    font-weight: 800;
+}
+
+.wrap_12 {
+    width: 1200px;
+    height: 385.5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap_12_top {
+    width: 1200px;
+    height: 285.5px;
+}
+
+.wrap_12_top img {
+    width: 1200px;
+    height: 285.5px;
+}
+
+.wrap_12_bottom {
+    width: 1200px;
+    height: 100px;
+}
+
+.wrap_13 {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_13_left, .wrap_13_right {
+    width: calc((100% - 1200px)/2);
+    height: 83px;
+    outline: 5px solid rgb(16, 24, 32);
+    border-top: 5px solid rgb(16, 24, 32);
+    border-bottom: 5px solid rgb(16, 24, 32);
+}
+
+.wrap_13_center {
+    width: 1200px;
+    height: 83px;
+    outline: 5px solid rgb(16, 24, 32);
+    border: 5px solid rgb(16, 24, 32);
+    background-color: rgb(255, 68, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_13_text {
+    font-size: 42px;
+    font-family: "Gotham_Bold";
+    font-weight: 800;
+    color: rgb(16, 24, 32);
+}
+
+.wrap_14 {
+    width: 1000px;
+    height: 748;
+    margin: 0 auto;
+}
+
+.wrap_14_blank1 {
+    width: 100%;
+    height: 100px;
+}
+
+.wrap_14_text1 {
+    width: 100%;
+    height: 384px;
+}
+
+.wrap_14_title {
+    width: 100%;
+    height: 54px;
+    padding-bottom: 10px;
+}
+
+.wrap_14_title {
+    color: rgb(16, 24, 32);
+    font-family: "Gotham_Bold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.8px;
+}
+
+.wrap_14_text1 ul li, .wrap_14_text2 ul li {
+    color: rgb(16, 24, 32);
+    font-family: "Gotham_Medium";
+    font-size: 17px;
+    font-weight: 500;
+    list-style: disc;
+    list-style-position: inside;
+    letter-spacing: -0.5px;
+    line-height: 32.3px;
+}
+
+.wrap_14_blank2 {
+    width: 100%;
+    height: 40px;
+}
+
+.wrap_14_text2 {
+    width: 100%;
+    height: 224px;
+}
+
+.wrap_15 {
+    width: 100%;
+    height: 150px;
+}

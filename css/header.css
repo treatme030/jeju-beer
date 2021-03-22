@@ -1,3 +1,7 @@
+.wrap {
+    width: 100%;
+    position: relative;
+}
 /* floating-btn */
 .floating-btn {
     position: fixed;
@@ -15,17 +19,18 @@
 }
 
 .floating-btn .talk {
-    background-image: url('../j-img/2616c012b78f3.png');
+    background-image: url('../j-img/icon/2616c012b78f3.png');
 }
 
 .floating-btn .share {
-    background-image: url('../j-img/button-share.png');
+    background-image: url('../j-img/icon/button-share.png');
     margin-top: 10px;
 }
 
 .floating-btn .top {
-    background-image: url('../j-img/button-top.png');
+    background-image: url('../j-img/icon/button-top.png');
     margin-top: 10px;
+    opacity: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -345,7 +350,7 @@
     display: inline-block;
     width: 27px;
     height: 24px;
-    background-image: url('../j-img/menu-icon-cart.png');
+    background-image: url('../j-img/icon/menu-icon-cart.png');
     background-size: contain;
     position: relative;
     vertical-align: top;
